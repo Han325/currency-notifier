@@ -4,7 +4,7 @@ from email.mime.text import MIMEText
 
 API_KEY = 'fca_live_R0QuH5Kq1ecVxIFexj2opz3SWQiP9AlmL3rWJnIw'
 BASE_URL = f'https://api.freecurrencyapi.com/v1/latest?apikey={API_KEY}&currencies=GBP&base_currency=MYR'
-THRESHOLD_RATE = 0.18
+THRESHOLD_RATE = 0.165
 
 def get_exchange_rate():
     response = requests.get(BASE_URL)
